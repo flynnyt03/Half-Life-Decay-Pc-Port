@@ -1,0 +1,12 @@
+
+game "Half Life: Decay (Mod)"
+gamedir "decay"
+Startmap "dy_accident1"
+Version "1.0"
+gamedll "dlls\decay.dll"
+cldll "1"
+Mpentity "info_player_coop"
+url_info "https://github.com/flynnyt03/Half-Life-Decay-Pc-Port/tree/main"
+hlversion "1110"
+type "Multi"
+icon "image"

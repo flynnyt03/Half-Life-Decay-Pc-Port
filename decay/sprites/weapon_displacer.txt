@@ -1,0 +1,7 @@
+6
+weapon		320 displacer	0	92	75	22
+weapon_s	320 displacer	0	114	75	22
+ammo		320 320hud2	0	34	18	18
+weapon		640 displacer   0	0	170	45
+weapon_s	640 displacer	0	45	170	45
+ammo		640 640hud7	0	96	24	24

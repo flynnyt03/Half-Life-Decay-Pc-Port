@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+<document>
+  <title>How to play</title>
+  <body>
+  <h4>Singleplayer game</h4>
+  <p>
+  Decay doesn't have usual singleplayer mode as Half-Life has - it creates local LAN server instead and adds controllable bot (switch with "G" button) as second player. So to start playing "singleplayer" Decay you should use "Play Decay" menu and start server for "dy_accident1" map.
+  </p>
+  <p>
+  Be aware that you can't choose any other map from the start - they all are locked by default, as in original PlayStation(r)2 version of the game, and are opened as you progress through the game.
+  </p>
+  <p>
+  The other important note is that Decay doesn't allow any game saves (as original game) so if you are killed, the mission is automatically restarted. The only saved info is your progress through the levels and stats, which is done automatically upon mission completion.
+  </p>
+  <h4>Internet game - details for how to set up server</h4>
+  <p>
+  Half-Life: Decay is a 2 person game and you can play not only with bot but with your friend.
+  You can easily set up home LAN server and your friend will be able to join the game immediately, but with the Internet game it's all a bit other.
+  The only way to do this is to have one of the 2 people host the server.</p>
+  <ol>
+    <li>Go to tools, and download dedicated server ( under the tools tab in steam). It's only like 20 mb.</li>
+    <li>COPY your Decay folder (from your Half-Life folder under you SteamApps folder). example - " C:\program files\SteamApps\[YOURACCOUNT]\half-life\decay" into the dedicated server folder. example- " C:\program files\SteamApps\[YOURACCOUNT]\dedicated server\half-life\decay"</li>
+    <li>Open dedicated server, and you'll get a GUI menu. Change the values as follows</li>
+    <ol type="A">
+      <li>Open the top dropdown box and make the game Decay</li>
+      <li>The server name can be whatever you want it to be</li>
+      <li>Map can be whatever, you can always change it in game</li>
+      <li>make sure the network is set to internet, or no one can join your game</li>
+      <li>make sure Max players is 3. no more, no less <b>( VERY IMPORTANT )</b>.</li>
+      <li>UDP port - 27015 is fine, dont chage it unless you know what you are doing ( there is no need to change it what so ever ).</li>
+      <li>RCON Password- you have to have one, but it can be anything ( its the password that controls the server).</li>
+      <li>Valve Anti Cheat should be selected, but it dosnt need to be.</li>
+    </ol>
+   <li>After you hit start server, the game will be up</li>
+   <li>To join the game, start up decay, and look for the server, BUT dont look for it under the internet tab, it will be under the LAN tab for you, but everone else will see it under Internet</li>
+   <li>Join in and have fun</li>
+  </ol>
+  </body>
+</document>

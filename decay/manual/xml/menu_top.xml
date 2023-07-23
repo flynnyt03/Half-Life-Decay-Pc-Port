@@ -1,0 +1,9 @@
+<menu>
+  <item name="game">
+    <item name="how to play" url="manual.xml"/>
+    <item name="game stats" url="stats.xml"/>
+    <item name="credits" url="credits.xml"/>
+  </item>
+  <item name="official site" url="http://decay.half-lifecreations.com"/>
+  <item name="forum" url="http://decay.half-lifecreations.com/forum"/>
+</menu>

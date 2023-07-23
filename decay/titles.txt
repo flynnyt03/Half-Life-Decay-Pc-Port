@@ -1,0 +1,1067 @@
+f//TITLES FOR HALF-LIFE
+// Position command $position x y 
+// x & y are from 0 to 1 to be screen resolution independent
+// -1 means center in each dimension
+// Effect command $effect <effect number>
+// effect 0 is fade in/fade out
+// effect 1 is flickery credits
+// effect 2 is write out (training room)
+// Text color r g b command $color
+// fadein time fadeout time / hold time
+// $fadein (message fade in time - per character in effect 2)
+// $fadeout (message fade out time)
+// $holdtime (stay on the screen for this long)
+
+//INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+HTINFO1
+{
+Black Mesa Research Facility
+Black Mesa, New Mexico
+}
+
+
+//INTRO CREDITS
+// Test values -- JAY
+// Lower left
+$position 0.1 0.7
+$effect 1
+// Final fade-in color
+$color 128 128 128
+// This is the highlight/flash color
+$color2 0 0 0
+$fadein 1.0
+$fadeout 1.0
+$holdtime 3
+
+
+
+DYCR0
+{
+Fixed and Updated by:
+}
+
+DYCR1
+{
+Flynn Thompson
+}
+
+DYCR2
+{
+PC game fully recreated by:
+}
+
+DYCR3
+{
+Vyacheslav Dzhura
+Denys Zhatov
+Hayri Yurdakul
+}
+
+HTCR0
+{
+Originally game by Gearbox Software:
+}
+
+HTCR1
+{
+Matthew Armstrong
+}
+
+HTCR2
+{
+Stephen Bahl
+}
+
+HTCR3
+{
+Sean Cavanaugh
+}
+
+HTCR4
+{
+Patrick Deupree
+}
+
+HTCR5
+{
+Rob Heironimus
+}
+
+HTCR6
+{
+Brian Hess
+}
+
+HTCR7
+{
+Steve Jones
+}
+
+HTCR8
+{
+Brian Martel
+}
+
+HTCR9
+{
+Christopher McArthur
+}
+
+HTCR10
+{
+David Mertz
+}
+
+HTCR11
+{
+Michael Montague
+}
+
+HTCR12
+{
+Landon Montgomery
+}
+
+HTCR13
+{
+Stephen Palmer
+}
+
+HTCR14
+{
+Randy Pitchford
+}
+
+HTCR15
+{
+Sean Reardon
+}
+
+HTCR16
+{
+Robert Selitto
+}
+
+HTCR17
+{
+Matthew VanDolen
+}
+
+HTCR18
+{
+Mike Wardwell
+}
+
+
+//END CREDITS
+$position -1 -1
+$effect 0
+// Final fade-in color
+$color 128 128 128
+// This is the highlight/flash color
+$color2 0 0 0
+$fadein 0.5
+$fadeout 0.5
+$holdtime 4
+
+GEARBOXIS
+{
+Gearbox Software is:
+}
+
+HTEND1
+{
+Matthew Armstrong
+Stephen Bahl
+Sean Cavanaugh
+Patrick Deupree
+Rob Heironimus
+Brian Hess
+}
+
+HTEND2
+{
+Steve Jones
+Brian Martel
+Christopher McArthur
+David Mertz
+Michael Montage
+Landon Montgomery
+}
+
+HTEND3
+{
+Stephen Palmer
+Randy Pitchford
+Sean Reardon
+Robert Selitto
+Matthew VanDolen
+Mike Wardwell
+}
+
+WRENCHIS
+{
+PC game fully recreated by:
+}
+
+DYEND1
+{
+Vyacheslav "Hoaxer" Dzhura 
+Denys "Rabano" Zhatov
+Hayri "Barnz" Yurdakul
+}
+
+DYEND2
+{
+Webteam:
+
+Pawel "Kachor" Koshielnij
+Anthony "Mr.Sugar" Zoha
+Ricard "Xombie" Soler
+Camilo Diaz
+P.Peev
+}
+
+DYEND3
+{
+Special thanks to:
+
+Thomas "Editor321" Rogers
+Rob Webb
+Jon "Rusty le Cyborg" New
+WatchItFool
+Kmkanaka
+Henry132
+}
+
+DYEND4
+{
+Sergiy "Vandal" Vandalovskyy
+marphy_black
+optIn
+Skyler "Zipster" York
+Jeffrey "Botman" Broome
+
+Gearbox Software for original Decay
+Valve for Half-Life
+}
+
+DYEND5
+{
+and for those most patient fans 
+who have waited for this game,
+especially
+
+Sappy, Felix Sandler, Dillxn, Aivaras 'Pred_qwerty' Kurskis
+}
+
+//INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+
+HTINFOG1
+{
+SUBJECT:
+Gina Cross
+Female, age 31
+}
+
+HTINFOG2
+{
+EDUCATION:
+Ph.D., Cal Tech, Applied Physics
+}
+
+HTINFOG3
+{
+POSITION:
+Hazardous Environment Supervisor
+}
+
+HTINFOG4
+{
+ASSIGNMENT:
+Anomalous Materials Laboratory
+}
+
+HTINFOG5
+{
+CLEARANCE:
+Level 4
+}
+
+HTINFOG6
+{
+ADMINISTRATIVE SPONSOR:
+Classified
+}
+
+
+HTINFOC1
+{
+SUBJECT:
+Colette Green
+Female, age 37
+}
+
+HTINFOC2
+{
+EDUCATION:
+Ph.D., Carnegie Mellon, Electrical Engineering
+}
+
+HTINFOC3
+{
+POSITION:
+Research Associate
+}
+
+HTINFOC4
+{
+ASSIGNMENT:
+Anomalous Materials Laboratory
+}
+
+HTINFOC5
+{
+CLEARANCE:
+Level 4
+}
+
+HTINFOC6
+{
+ADMINISTRATIVE SPONSOR:
+Classified
+}
+
+
+$fadein 0.03
+$holdtime 9
+
+GAMEOVER
+{
+SUBJECTS: CROSS AND GREEN
+
+STATUS:  EVALUATION TERMINATED
+
+POSTMORTEM:
+Subjects failed to effectively utilize
+human assets in achievement of goal.
+}
+
+
+
+$fadein 0.03
+$holdtime 9
+
+BOTHDEAD
+{
+SUBJECTS: CROSS AND GREEN
+
+STATUS:  EVALUATION TERMINATED
+
+POSTMORTEM:
+Both subjects perished during
+the Black Mesa incident.
+}
+
+
+
+$fadein 0.03
+$holdtime 9
+
+DEADGINA
+{
+SUBJECTS: CROSS AND GREEN
+
+STATUS:  EVALUATION TERMINATED
+
+POSTMORTEM:
+Subject Dr. Gina Cross perished 
+during the Black Mesa incident.
+}
+
+$fadein 0.03
+$holdtime 9
+
+DEADCOLETTE
+{
+SUBJECTS: CROSS AND GREEN
+
+STATUS:  EVALUATION TERMINATED
+
+POSTMORTEM:
+Subject Dr. Colette Green perished 
+during the Black Mesa incident.
+}
+
+$fadein 0.03
+$holdtime 9
+
+DEADALIEN
+{
+DRONE SUBJECTS: X-8973 AND R-4913
+
+DRONE STATUS: LIFE FUNCTION OVER
+
+TASK STATUS:
+Failure - material not recovered.
+}
+
+
+$fadein 0.03
+$holdtime 9
+
+SUCCESS
+{
+SUBJECTS: CROSS AND GREEN
+
+STATUS:  MISSION COMPLETED
+
+POSTMORTEM:
+How are you gentlemen !!  You have
+successfully completed this mission.
+}
+
+// DECAY POST-MORTEMS
+
+DYLOCKED
+{
+ACCESS DENIED
+
+The mission is locked ! You have
+to complete them in order starting
+from DY_ACCIDENT1
+
+MISSION IS LOCKED
+}
+
+HT01COMPLETE
+{
+DUAL ACCESS
+
+Accident survived.
+
+MISSION COMPLETE
+}
+
+HT02COMPLETE
+{
+HAZARDOUS COURSE
+
+Rosenberg escorted to surface.
+
+MISSION COMPLETE
+}
+
+HT03COMPLETE
+{
+SURFACE CALL
+
+Satellite uplink established.
+
+MISSION COMPLETE
+}
+
+HT04COMPLETE
+{
+RESONANCE
+
+Dampening field reset attempted.
+
+MISSION COMPLETE
+}
+
+HT05COMPLETE
+{
+DOMESTIC VIOLENCE
+
+Security guard rescued.
+
+MISSION COMPLETE
+}
+
+HT07COMPLETE
+{
+CODE GREEN
+
+Satellite code uploaded.
+
+MISSION COMPLETE
+}
+
+HT10COMPLETE
+{
+CROSSFIRE
+
+Displacement beacon raised.
+
+MISSION COMPLETE
+}
+
+HT11COMPLETE
+{
+INTENSITY
+
+Beam matrix activated.
+
+MISSION COMPLETE
+}
+
+HT12COMPLETE
+{
+RIFT
+
+Resonance reversal initiated.
+
+MISSION COMPLETE
+}
+
+HT91COMPLETE
+{
+XEN ATTACKS
+
+Xen crystals recovered.
+
+MISSION COMPLETE
+}
+
+// DECAY CHAPTER TITLES
+
+$fadein 0.01
+$position -1 0.65
+$holdtime 3.5
+
+HT01TITLE
+{
+DUAL ACCESS
+}
+
+HT02TITLE
+{
+HAZARDOUS COURSE
+}
+
+HT03TITLE
+{
+SURFACE CALL
+}
+
+HT04TITLE
+{
+RESONANCE
+}
+
+HT05TITLE
+{
+DOMESTIC VIOLENCE
+}
+
+HT07TITLE
+{
+CODE GREEN
+}
+
+HT10TITLE
+{
+CROSSFIRE
+}
+
+HT11TITLE
+{
+INTENSITY
+}
+
+HT12TITLE
+{
+RIFT
+}
+
+HT91TITLE
+{
+XEN ATTACKS
+}
+
+// In-Game messages
+$position -1 0.65
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 2.0
+// How long it takes to fade out the message after holding
+$fadeout 0.5
+
+GAMESAVED
+{
+Saved...
+}
+
+// Game title
+// This is a placeholder to hold the effects controls for the "Half-Life" title
+$position -1 -1
+// Only effect 0 is supported for game title
+$effect 0
+// This is the final color
+$color 180 180 180
+// Not used color2
+$color2 0 0 0
+// This is the time it takes to fade in the title
+$fadein 1.0
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.0
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+GAMETITLE
+{
+Half-Life
+}
+
+//HAZARD COURSE TEXT
+
+// Test values -- JAY
+$position -1 0.65
+// Scan-out text effect
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 0 200 50
+// This is the time it takes to fade each character
+$fadein 0.005
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.5
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+$position -1 0.3
+HZBUTTON1
+{
+PRESS YOUR USE KEY TO PUSH A BUTTON
+}
+
+$position -1 0.65
+HZBUTTON2
+{
+PRESS YOUR USE KEY TO PUSH A BUTTON
+}
+
+HZMOVE
+{
+MOVE FORWARD BY PRESSING FORWARD KEY
+MOVE BACKWARD BY PRESSING BACKWARD KEY
+MOVE LEFT BY PRESSING MOVELEFT
+MOVE RIGHT BY PRESSING MOVERIGHT
+}
+
+HZJUMP
+{
+PRESS FORWARD KEY TO RUN FORWARD
+PRESS JUMP KEY TO JUMP
+}
+
+HZDUCK
+{
+PRESS FORWARD KEY TO RUN FORWARD
+PRESS DUCK KEY TO DUCK
+PRESS FORWARD + DUCK KEYS TOGETHER 
+TO MOVE IN STEALTH MODE
+}
+
+HZCOMBO
+{
+PRESS FORWARD KEY TO RUN FORWARD
+PRESS JUMP KEY TO JUMP
+PRESS DUCK KEY TO DUCK
+PRESS JUMP KEY TO JUMP
+}
+
+HZDUCKJUMP
+{
+PRESS FORWARD + JUMP TOGETHER,
+THEN THE DUCK KEY
+}
+
+HZLADDER
+{
+PRESS FORWARD KEY TO MOVE UP LADDERS
+PRESS BACKWARD KEY TO MOVE DOWN LADDERS
+}
+
+HZLJUMP
+{
+WHILE MOVING FORWARD,
+HOLD DOWN DUCK KEY--
+THEN PRESS JUMP
+}
+
+$position -1 0.3
+HZLMOD
+{
+BE SURE YOU PICKED UP THE LONG-JUMP MODULE
+AT THE BEGINNING OF THE OBSTACLE
+}
+
+$position -1 0.65
+HZMEDKIT
+{
+USE MED-KITS BY HOLDING DOWN THE USE KEY
+HOLD DOWN USE KEY UNTIL HEALTH IS
+AT 100 OR KIT IS DEPLETED
+}
+
+HZMOMENT
+{
+ACTIVATE WHEELS AND DIALS 
+BY HOLDING DOWN THE USE KEY
+HOLD USE KEY UNTIL BRIDGE IS IN POSITION
+}
+
+HZPUSH
+{
+PRESS FORWARD KEY TO MOVE AGAINST BOX
+KEEP PRESSING FORWARD TO PUSH BOX
+}
+
+HZPULL
+{
+PRESS USE + BACKWARD KEYS TOGETHER
+TO PULL BOX BACKWARD
+}
+
+HZCROWBAR
+{
+MOVE UP TO CROWBAR
+PRESS ATTACK1 KEY TO BREAK OBJECTS
+}
+ 
+HZLITEON
+{
+PRESS FLASHLIGHT KEY 
+TO TURN FLASHLIGHT ON
+}
+
+HZLITEOFF
+{
+PRESS FLASHLIGHT KEY AGAIN 
+TO TURN FLASHLIGHT OFF
+}
+
+HZWEAPON
+{
+MOVE UP TO WEAPON TO PICK IT UP
+}
+
+HZFIREWEAP
+{
+PRESS ATTACK1 KEY FOR PRIMARY ATTACK
+PRESS ATTACK2 KEY FOR ALTERNATE ATTACK
+PRESS RELOAD KEY TO RELOAD AT WILL
+}
+
+HZARMOR
+{
+PRESS AND HOLD YOUR USE KEY
+HOLD DOWN UNTIL SUIT ARMOR IS CHARGED
+OR CHARGER IS DEPLETED
+}
+
+HZSWIM
+{
+PRESS YOUR FORWARD KEY
+AIM WITH THE MOUSE AS YOU SWIM
+FIND AIR IF YOU BEGIN TO LOSE HEALTH
+WAIT IN THE AIR UNTIL HEALTH 
+RETURNS TO FORMER LEVEL
+}
+
+HZDAMAGE
+{
+CERTAIN TYPES OF DAMAGE WILL REGISTER 
+ON YOUR HEADS-UP DISPLAY.
+DIRECTION OF DAMAGE IS INDICATED BY RED 
+FLASHES IN THE CENTER OF YOUR SCREEN
+}
+
+HZHAZARD
+{
+RADIATION HAZARDS 
+ACTIVATE A GEIGER COUNTER
+}
+
+HZSCIENTIST
+{
+APPROACH SCIENTIST
+PRESS USE KEY TO RECEIVE HEALTH FROM SCIENTIST
+}
+
+HZBARNEY
+{
+APPROACH SECURITY GUARD
+PRESS YOUR USE KEY TO GET HIS HELP
+WALK TOWARD DOOR AND GUARD
+WILL ACTIVATE BUTTONS
+}
+
+HZTRAIN
+{
+PRESS USE KEY TO ENGAGE TRAIN
+PRESS FORWARD KEY TO ACCELERATE
+PRESS BACKWARD KEY TO DECELERATE
+PRESS USE KEY AGAIN TO DISENGAGE
+}
+
+HZDONE
+{
+CONGRATULATIONS!
+YOU HAVE COMPLETED 
+THE BLACK MESA HAZARD COURSE.
+COME BACK ANY TIME.
+}
+
+//END CREDITS
+$position -1 -1
+$effect 0
+// Final fade-in color
+$color 128 128 128
+// This is the highlight/flash color
+$color2 0 0 0
+$fadein 1
+$fadeout 1
+$holdtime 8
+
+PCEND1
+{
+Vyacheslav "Hoaxer" Dzhura 
+Denys "Rabano" Zhatov
+Hayri "Barnz" Yurdakul
+}
+
+PCEND2
+{
+Webteam:
+
+Pawel "Kachor" Koshielnij
+Anthony "Mr.Sugar" Zoha
+Ricard "Xombie" Soler
+Camilo Diaz
+P.Peev
+}
+
+PCTHANKS
+{
+PC version
+special thanks to:
+}
+
+PCTHANKS1
+{
+Rob Webb
+Thomas "Editor321" Rogers
+Jon "Rusty le Cyborg" New
+Sergiy "Vandal" Vandalovskyy
+}
+
+PCTHANKS2
+{
+Roman "Hax" Lut
+Skyler "Zipster" York
+Jeffrey "Botman" Broome
+}
+
+PCTHANKS3
+{
+WatchItFool
+Kmkanaka
+Henry132
+marphy_black
+optIn
+}
+
+PCTHANKS4
+{
+Gearbox Software for original Decay
+and greatest PS2 adaptation! :)
+
+Valve for Half-Life
+
+and most patient fans  who have 
+waited for this game, especially
+
+Sappy, Felix Sandler, Dillxn, Pred_qwerty,
+Kerberos, ICE-TEA
+}
+
+END1
+{
+Matthew Armstrong
+Stephen Bahl
+Sean Cavanaugh
+Patrick Deupree
+Rob Heironimus
+}
+
+END2
+{
+Brian Hess
+Steve Jones
+Brian Martel
+Christopher McArthur
+David Mertz
+}
+
+END3
+{
+Michael Montague
+Landon Montgomery
+Stephen Palmer
+Randy Pitchford
+Sean Reardon
+}
+
+END4
+{
+Robert Selitto
+Matthew VanDolen
+Mike Wardwell
+}
+
+SPTHANKS
+{
+Special thanks to:
+}
+
+THANKS1
+{
+Brice Armstrong
+Jon St. John
+Kathy Levin
+Eli Luna
+}
+
+THANKS2
+{
+Lani Minella
+Harry S. Robbins
+Mike Shapiro
+}
+
+holdtime 10
+HTTITLE
+{
+Half-Life: Decay
+}
+
+GEARBOXIS
+{
+Gearbox is:
+}
+
+WRENCHIS
+{
+PC game fully recreated by:
+}
+
+TEST1
+{
+this is a test message to test Trebuchet MS font
+used in PlayStation2 version of
+Half-Life
+
+Decay DECAY decay
+HALF-LIFE Half-Life half-life
+
+1234567890
+abcdefghjiklmnopqrstuvwcyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+��������� �������
+}
+
+$position 20 145
+SCORE_PLAYER
+{
+player
+}
+
+$position 130 170
+SCORE_KILLS
+{
+kills
+}
+
+$position 185 220
+SCORE_DEATHS
+{
+deaths
+}
+
+$position 255 305
+SCORE_DAMAGE
+{
+damage
+}
+
+$position 350 400
+SCORE_ACCURACY
+{
+accuracy
+}
+
+notepadheader2
+{
+blahblahblah this thing works
+}
+
+Decay_SparePlayerTitle
+{
+Oops! Server is full
+}
+
+Decay_SparePlayerMessage
+{
+Half-Life: Decay is designed only for 2 person play.
+
+You are the third person connected to this server,
+that is why you will be automatically kicked 
+within 5 seconds.
+}
