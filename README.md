@@ -1,3 +1,12 @@
+How to install:
+
+Goto the releases tab to the left
+click on "Half-Life.Decay.Installer.exe" and it will download the installer
+point the installer to your half-life install directory and it will install
+restart steam and find "Half-Life: Decay (Mod)" launch there and you will be
+able to use steam servers to play with friends
+
+
 # Half-Life-Decay-Pc-Port
 Continuing on from the 2013 Pc port mod
 
